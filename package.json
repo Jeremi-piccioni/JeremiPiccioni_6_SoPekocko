@@ -1,0 +1,30 @@
+{
+  "name": "6em_projet_back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeremi-piccioni/JeremiPiccioni_6_SoPekocko.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jeremi-piccioni/JeremiPiccioni_6_SoPekocko/issues"
+  },
+  "homepage": "https://github.com/Jeremi-piccioni/JeremiPiccioni_6_SoPekocko#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.10"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
