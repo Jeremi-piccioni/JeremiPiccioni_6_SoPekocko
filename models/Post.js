@@ -9,11 +9,11 @@ const PostSchema = mongoose.Schema({
     password: {
         type: String,
         required: true
-    },
+    } /*,
     date: {
         type: Date,
         defaut: Date.now
-    }
+    } */
 })
 
 module.exports = mongoose.model('Posts', PostSchema)

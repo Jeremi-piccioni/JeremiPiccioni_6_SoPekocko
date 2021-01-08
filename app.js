@@ -11,12 +11,11 @@ app.use(bodyParser.json())
 
 //Import Routes
 const postsRoute = require('./routes/posts')
-
-app.use('/posts', postsRoute )
+app.use('/api/auth/signup', postsRoute )
 
 //Routes
 app.get('/', (req,res) => {
-    res.send('we are on home')
+    res.send('we are on saved')
 })
 
 //Connect to Data Base
